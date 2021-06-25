@@ -13,6 +13,11 @@ body {
 .header{
     padding: 25px 0;
 }
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 .logo,
 .logo p,
 .logo img{
@@ -56,9 +61,6 @@ body {
     content: "";
     display: block;
     clear: both;
-}
-.ball{
-    padding-bottom: 25px;
 }
 .image{
     width: 100%;
